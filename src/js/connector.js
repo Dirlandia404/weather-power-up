@@ -14,6 +14,7 @@ const showBadge = (command, type, prefs) => {
     return prefs[`${type}-back`] !== false;
   }
 
+  console.log('teste');
   throw new Error('Unknown command', command);
 };
 
